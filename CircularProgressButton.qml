@@ -37,7 +37,7 @@ Item {
     property color innerCircleColor: "white"
 
     // Progress Circle
-    property color progressColor: "#488aff"
+    property color progressColor: "#399fff"
     property int progressWidth: circleSize
 
     QtObject {
@@ -81,7 +81,7 @@ Item {
 
         ShapePath {
             id: path
-            strokeColor: "#b0488aff"
+            strokeColor: progressColor
             fillColor: progress.bgColor
             strokeWidth: progress.progressWidth
             capStyle: progress.roundCap ? ShapePath.RoundCap : ShapePath.FlatCap
