@@ -42,3 +42,16 @@ myProgressButton.onPressEnd: {
 myProgressButton.onReleased: {
     // Handle release action
 }
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+[Yasin Akin](https://github.com/yasinakinn)
+
+## Acknowledgments
+We would like to acknowledge the following libraries and frameworks used in this project:
+
+[Qt Quick](https://doc.qt.io/qt-6/qtquick-index.html): A powerful framework for developing user interfaces.
+[Qt Quick Shapes](https://doc.qt.io/qt-6/qtquick-shapes-qmlmodule.html): A module for creating 2D graphics in Qt Quick.
